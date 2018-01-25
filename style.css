@@ -1,0 +1,39 @@
+body {
+    background-color: #161411;
+}
+
+h1 {
+    color: rgb(117, 172, 243);
+    text-align: center;
+    margin-bottom:0;
+    padding-bottom:0;
+}
+
+h3 {
+    color: rgb(117, 172, 243);
+    text-align: center;
+}
+
+.nav {
+    position:fixed;
+    color: lightcoral;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    padding-bottom: 2px;
+    width: 100%;
+}
+
+body, html{
+    margin:0;
+    padding:0;
+}
+
+button {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content {
+    padding-top: 75px;
+}
