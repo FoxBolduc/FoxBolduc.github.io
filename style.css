@@ -37,3 +37,13 @@ button {
 .content {
     padding-top: 75px;
 }
+
+.about, .projects, .blog {
+    border-bottom-style: double;
+    border-bottom-color: slategrey;
+    border-bottom-width: 8px;
+}
+
+.projectToggle {
+    text-align: center;
+}
