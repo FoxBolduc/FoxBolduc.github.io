@@ -14,6 +14,14 @@ h3 {
     text-align: center;
 }
 
+h2, h4 {
+    color: rgb(117,172, 243);
+}
+
+h4 {
+    font-size: 14pt;
+}
+
 .nav {
     position:fixed;
     color: lightcoral;
@@ -42,8 +50,15 @@ button {
     border-bottom-style: double;
     border-bottom-color: slategrey;
     border-bottom-width: 8px;
+    padding-left:30px;
+    padding-right:30px;
 }
 
 .projectToggle {
     text-align: center;
 }
+
+p {
+    color: whitesmoke;
+}
+

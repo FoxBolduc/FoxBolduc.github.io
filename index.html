@@ -10,24 +10,49 @@
 
     <link rel="stylesheet" type="text/css" href="skeleton.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="index.js"></script>
 </head>
 
-<body>
+<body onload="onLoad()">
     <div class="nav">
         <button>Who am I?</button>
         <button>What do I do?</button>
-        <button>What do I have to say?</button>     
+        <button>What do I have to say?</button>
+        <div class="contactLinks">
+            
+        </div>
     </div>
     <div class="content">
         <div class="about">
             <h1>Fox Bolduc</h1>
             <h3>Programmer</h3>
+            <p>Hello there, I'm Fox Bolduc and I like to make things. I'm a computer science student at Texas Tech University and making things work is my passion. My interests lie in autonomous systems,
+                knowledge representation, and how we interact with computers. I firmly believe that computers are here to make our lives run as smoothly as possible and I'm looking to make that a reality.
+            </p>
         </div>
         <div class="projects">
             <h1>My Projects</h1>
             <div class="projectToggle">
-                <button>School</button>
-                <button>Personal</button>
+                <button onclick="showSchool()">School</button>
+                <button onclick="showPersonal()">Personal</button>
+            </div>
+            <div id="personalProjects" style=>
+                <div class="JConvert project">
+                    <h2>Jconvert</h2>
+                    <h4>Python</h4>
+                    <p>Jconvert is a simple python script I wrote to convert data from Microsoft Excel 
+                        spreadsheets to JSON format. The code provided can turn any list of objects with multiple
+                        attributes into a JSON file. Use of the included template Excel file that provides a sample
+                        of how to enter data properly is recommended.</p>
+                        <a href="https://github.com/FoxBolduc/FiTime-Tools" class="button">Get the Source Code</a>
+                </div>
+            </div>
+            <div id="schoolProjects">
+                <div class="ARHome project">
+                    <h2>AR Room</h2>
+                    <h4>three.js</h4>
+                    <p>Coming Soon</p>                    
+                </div>
             </div>
         </div>
         <div class="blog">
