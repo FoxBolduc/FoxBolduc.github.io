@@ -15,26 +15,24 @@
 
 <body onload="onLoad()">
     <div class="nav">
-        <button>Who am I?</button>
-        <button>What do I do?</button>
-        <button>What do I have to say?</button>
-        <div class="contactLinks">
+        <a href="#about" class="button">Who am I?</a>
+        <a href="#projects" class="button">What do I do?</a>
+        <a href="#blog" class="button">What do I have to say?</a>
             
-        </div>
     </div>
     <div class="content">
-        <div class="about">
+        <div class="about" id="about">
             <h1>Fox Bolduc</h1>
             <h3>Programmer</h3>
             <p>Hello there, I'm Fox Bolduc and I like to make things. I'm a computer science student at Texas Tech University and making things work is my passion. My interests lie in autonomous systems,
                 knowledge representation, and how we interact with computers. I firmly believe that computers are here to make our lives run as smoothly as possible and I'm looking to make that a reality.
             </p>
         </div>
-        <div class="projects">
+        <div class="projects" id="projects">
             <h1>My Projects</h1>
             <div class="projectToggle">
-                <button onclick="showSchool()">School</button>
-                <button onclick="showPersonal()">Personal</button>
+                <button onclick="showSchool()" id="schoolButton">School</button>
+                <button onclick="showPersonal()" id="personalButton">Personal</button>
             </div>
             <div id="personalProjects" style=>
                 <div class="JConvert project">
@@ -55,8 +53,9 @@
                 </div>
             </div>
         </div>
-        <div class="blog">
+        <div class="blog" id="blog">
             <h1>My Ramblings</h1>
+            <p>I don't have anything to say right now.</p>
         </div>
     </div>    
 </body>
