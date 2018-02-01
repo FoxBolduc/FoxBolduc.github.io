@@ -62,5 +62,12 @@ p {
     color: whitesmoke;
 }
 
+.link {
+    padding:6px;
+    text-decoration: none;
+}
 
+.linkIMG {
+    vertical-align: bottom;
+}
 
