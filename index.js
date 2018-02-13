@@ -21,5 +21,5 @@ function showPersonal(){
 }
 
 function onLoad(){
-    showPersonal();
+    showSchool();
 }
